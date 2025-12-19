@@ -1,9 +1,11 @@
 import java.util.Scanner;
+//chrispine munyiri
+//J77-10543-2024
 public class Assignment1sept{
     public static void main(String[]args){
         Scanner scanner= new Scanner(System.in);
 
-        //prompt user input
+
         System.out.println("Enter book ID: ");
         String bookID=scanner.nextLine();
        
@@ -13,10 +15,10 @@ public class Assignment1sept{
         System.out.println("Enter return date: ");
         Integer returnDate=scanner.nextInt();
 
-        //calculation of days overdue
+        
         Integer daysOverdue=returnDate-dueDate;
 
-        //using if-else statements to determine fine rate
+        
         Integer fineRate=0;
         Integer fineAmount=0;
         
